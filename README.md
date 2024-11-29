@@ -1,16 +1,14 @@
-## Hi there 👋
+### WELCOME TO MY PAGE 👋
+My name is Le Hoang Bao Phuc. I am interested in the following topics: Intelligent Artificial.<br>
 
-<!--
-**BaoPhuc1311/BaoPhuc1311** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Viet's github stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=vietnh1009&show_icons=true&theme=tokyonight&hide=contribs,prs,issues)
 
-Here are some ideas to get you started:
+<a href="https://github.com/vietnh1009/QuickDraw/">
+  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=vietnh1009&repo=QuickDraw&theme=radical" />
+</a>    
+<a href="https://github.com/vietnh1009/ASCII-generator/">
+  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=vietnh1009&repo=ASCII-generator&theme=merko" />
+</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
