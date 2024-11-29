@@ -5,5 +5,5 @@ My name is Le Hoang Bao Phuc. I am interested in the Artificial Intelligent.<br>
 
 <a href="https://github.com/BaoPhuc1311/Virtual-Assistant/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=BaoPhuc1311&repo=QuickDraw&theme=radical" />
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=BaoPhuc1311&repo=Virtual-Assistant&theme=radical" />
 </a>    
