@@ -1,4 +1,4 @@
-[![MasterHead](https://i.pinimg.com/originals/55/01/60/5501609ee45d514d1f2c4a63502045e2.gif)]
+[![MasterHead](https://cdnb.artstation.com/p/assets/images/images/038/935/385/large/raoni-dorim-mountains-day-highress-01.jpg?1624474753)](https://github.com/BaoPhuc1311)
 
 <h1 align="center">Hi 👋, I'm Le Hoang Bao Phuc</h1>
 <h3 align="center">Student from HCMUTE</h3>
@@ -7,11 +7,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=baophuc1311&label=Profile%20views&color=0e75b6&style=flat" alt="baophuc1311" /> </p>
 
-- 📫 How to reach me **lhbaophuc0802@gmail.com**
+📫 How to reach me **lhbaophuc0802@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/le hoang bao phuc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="le hoang bao phuc" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/le-hoang-bao-phuc-0a5a72273" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="le hoang bao phuc" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
