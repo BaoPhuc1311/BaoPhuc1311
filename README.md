@@ -1,6 +1,6 @@
 [![MasterHead](https://cdnb.artstation.com/p/assets/images/images/038/935/385/large/raoni-dorim-mountains-day-highress-01.jpg?1624474753)](https://github.com/BaoPhuc1311)
 
-<h1 align="center">Hi 👋, I'm Le Hoang Bao Phuc</h1>
+<h1 align="center">Hi, I'm Le Hoang Bao Phuc</h1>
 <h3 align="center">Student from HCMUTE</h3>
 
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/ef/09/36/ef0936558e58d6bebf73fee2ae895fe3.gif">
