@@ -1,0 +1,64 @@
+name: Update README with Quote
+
+on:
+  schedule:
+    - cron: "0 17 * * 0"
+  push:
+    branches: [ main ]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run update script
+        run: |
+          quotes=(
+            "The only way to do great work is to love what you do. – <strong><em>Steve Jobs</em></strong>"
+            "Success is not final, failure is not fatal: it is the courage to continue that counts. – <strong><em>Winston Churchill</em></strong>"
+            "Believe you can and you're halfway there. – <strong><em>Theodore Roosevelt</em></strong>"
+            "Don't watch the clock; do what it does. Keep going. – <strong><em>Sam Levenson</em></strong>"
+            "It always seems impossible until it's done. – <strong><em>Nelson Mandela</em></strong>"
+            "Keep your face always toward the sunshine—and shadows will fall behind you. – <strong><em>Walt Whitman</em></strong>"
+            "Opportunities don't happen, you create them. – <strong><em>Chris Grosser</em></strong>"
+            "Act as if what you do makes a difference. It does. – <strong><em>William James</em></strong>"
+            "Quality means doing it right when no one is looking. – <strong><em>Henry Ford</em></strong>"
+            "Do what you can, with what you have, where you are. – <strong><em>Theodore Roosevelt</em></strong>"
+            "Everything you can imagine is real. – <strong><em>Pablo Picasso</em></strong>"
+            "Happiness depends upon ourselves. – <strong><em>Aristotle</em></strong>"
+            "If you want to lift yourself up, lift up someone else. – <strong><em>Booker T. Washington</em></strong>"
+            "Well done is better than well said. – <strong><em>Benjamin Franklin</em></strong>"
+            "With the new day comes new strength and new thoughts. – <strong><em>Eleanor Roosevelt</em></strong>"
+            "You must be the change you wish to see in the world. – <strong><em>Mahatma Gandhi</em></strong>"
+            "An unexamined life is not worth living. – <strong><em>Socrates</em></strong>"
+            "Nothing is impossible, the word itself says 'I'm possible'! – <strong><em>Audrey Hepburn</em></strong>"
+            "Hardships often prepare ordinary people for an extraordinary destiny. – <strong><em>C.S. Lewis</em></strong>"
+            "Don’t wait. The time will never be just right. – <strong><em>Napoleon Hill</em></strong>"
+          )
+
+          random_quote="${quotes[$RANDOM % ${#quotes[@]}]}"
+
+          formatted_quote="<h3 align=\"center\"><font color=\"blue\"><em>\"$random_quote\"</em></font></h3>"
+
+          awk -v newtext="$formatted_quote" '
+            /<h3 align="center">Student from HCMUTE<\/h3>/ {
+              print $0 "\n" newtext
+              next
+            }
+            { print }
+          ' README.md > temp.md && mv temp.md README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "BaoPhuc1311"
+          git config --global user.email "lhbaophuc0802@gmail.com"
+          git add README.md
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update README with a new quote"
+            git push
+          fi
