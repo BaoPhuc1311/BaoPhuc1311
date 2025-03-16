@@ -5,7 +5,7 @@
 
 <h3 align="center"><font color="blue"><em>"The only way to do great work is to love what you do. – <strong><em>Steve Jobs</em></strong>"</em></font></h3>
 
-<img align="right" src="https://i.pinimg.com/originals/ef/09/36/ef0936558e58d6bebf73fee2ae895fe3.gif" alt="coding" width="150">
+<img align="right" src="https://i.pinimg.com/originals/ef/09/36/ef0936558e58d6bebf73fee2ae895fe3.gif" alt="coding" width="250">
 
 <h3 align="left">🌍 Connect with me</h3>
 <p align="left">
